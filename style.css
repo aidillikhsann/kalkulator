@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   color: rgb(255, 255, 255);
+  list-style: none;
+}
+.kalkulator {
+  display: done;
+  width: 100%;
 }
 .container {
   display: flex;
@@ -47,4 +52,16 @@ td {
 }
 td:hover {
   background-color: rgb(44, 44, 44);
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .kalkulator {
+    display: flex;
+    justify-content: center;
+  }
+  .hytori {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    padding: 20px;
+  }
 }
